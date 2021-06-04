@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+    font-weight: 700;
+    color:white;
+    background-color: #111;
+
+}
+
+.login-container
+{
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #111;
+    box-shadow: 15px 15px 15px #050505, -25px -25px 60px #050505;
+}
+
+.avatar
+{
+    background: url("profile.jpg") no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 20px 20px 20px #1d1d1d , -20px -20px 80px #1d1d1d;
+}
+
+
+.title
+{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sub-title
+{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+
+}
+
+.fields
+{
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+
+input 
+{
+    background-color: #111;
+    width: 300px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    box-shadow: inset 5px 5px 15px 0px #000;
+    font-size: 16px;
+    color: white;
+    padding: 18px 10px 18px 6px;
+}
+
+input:hover
+{
+    box-shadow: none;
+    color: black;
+    background-color: white;
+    transition: 0.6s;
+}
+
+
+.login
+{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: #111;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.3px;
+
+}
+
+.login:hover
+{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+
+.link
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link a
+{
+    color: gray;
+    padding: 10px;
+}
+
+.link a:hover
+{
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
